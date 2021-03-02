@@ -269,7 +269,7 @@ class SinglePokemon extends Component {
                     <h6 className="grid-titles">weight</h6>
                   </div>
                   <div className="col-12">
-                    <h6 className="grid-subtitles">{this.state.weight} Kg</h6>
+                    <h6 className="grid-subtitles">{this.state.weight}kg</h6>
                   </div>
                   <div className="col-12">
                     <h6 className="grid-titles">Base exp</h6>

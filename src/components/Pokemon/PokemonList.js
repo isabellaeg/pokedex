@@ -7,7 +7,7 @@ class PokemonList extends Component {
     constructor(props) {
         super(props);
         this.state={
-            url: 'https://pokeapi.co/api/v2/pokemon/?limit=200',
+            url: 'https://pokeapi.co/api/v2/pokemon/?limit=400',
             pokemon: null,
             search: '', 
          }
