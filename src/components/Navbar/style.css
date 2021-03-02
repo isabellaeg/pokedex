@@ -1,0 +1,15 @@
+.navbar {
+    background-color: rgb(0, 38, 255) !important;
+    height: 100px;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.pokedex {
+    text-decoration: none !important;
+    color: black
+}
+
+.pokedex:hover {
+    text-decoration: none;
+}

@@ -1,0 +1,82 @@
+h6 {
+    text-transform: capitalize;
+    text-align: center;
+    color: gray;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.card-title {
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.img-small {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.card {
+    border-radius: 30px;
+    box-shadow: 0 1px 1px rgba(131, 128, 128, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.82, 0.25, 1);
+    -moz-user-select: none;
+    user-select: none;
+    padding: 10px;
+    
+}
+
+.card-detail {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.82, 0.25, 1);
+    -moz-user-select: none;
+    user-select: none;
+    max-width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+    
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.24), 0 10px 10px rgba(0, 0, 0, 0.22)
+}
+
+.link-pok {
+    text-decoration: none;
+}
+
+.link-pok:hover {
+    text-decoration: none;
+}
+
+.img-detail {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.female-icon {
+background-color: red;
+    height:50px;
+    width: 50px;
+}
+
+.male-icon {
+    background-color: rgb(78, 216, 235);
+    height:50px;
+    width: 50px;
+}
+
